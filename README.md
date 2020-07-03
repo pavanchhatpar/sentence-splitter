@@ -22,6 +22,7 @@ Fine tuning ELECTRA to break sentences into two parts when the discourse marker 
 ## Results
  - With little-to-no effort on hyperparameter tuning, fine tuning the model for 2 epochs gets to a `test accuracy of 91.8%` while `training accuracy is 95.4%`
  - Check the [notebook](https://github.com/pavanchhatpar/sentence-splitter/blob/master/Sentence_splitting_model.ipynb) or [![Try it on Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pavanchhatpar/sentence-splitter/blob/master/Sentence_splitting_model.ipynb) for more details
+![Sample prediction](sentence-splitter.png)
 
 ## TODOs
  - Make the pretrained model available probably via Hugging Face's own model upload facility
@@ -32,3 +33,4 @@ Fine tuning ELECTRA to break sentences into two parts when the discourse marker 
  - [ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/abs/2003.10555)
  - `Hugging Face 🤗 Transformers` library for the pretrained ELECTRA model and their extremely lucid API
  - `Google Colaboratory` for providing the free GPU environment
+ - [Mining Discourse Markers for Unsupervised Sentence Representation Learning](https://arxiv.org/abs/1903.11850) for providing the dataset
